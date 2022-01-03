@@ -1,0 +1,197 @@
+{
+    "intents": [
+        {"tag": "Salam",
+        "patterns": ["Hai", "Apa Kabar", "Apakah ada orang disana?","Halo"],
+        "responses": ["Hai", "Ada yang bisa saya bantu?"]
+        },
+        {"tag" : "kamu",
+        "patterns" : ["siapa kamu", "nama", "kamu"],
+        "responses" : ["Ti-bot, Asisstaint Prodi D4 TI berupa chatbot"]
+        },
+        {"tag": "Terimakasih",
+        "patterns": ["Terimakasih", "Itu membantu", "Luar biasa, terima kasih", "Terima kasih telah membantu saya"],
+        "responses": ["Senang membantu bisa membantu!"]
+        },
+        {"tag" : "diluar pertanyaan",
+          "patterns" : ["ini", "itu", "kantin", "aku", "uang", "apa", "iya", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", ",", ".", "?", "!", ";", ":", "{}", "/", "|", "*", "<", ">", "&", "()", "^", "#", "@", "%", "hmm", "$"],
+          "responses" : ["maaf pertanyaan anda diluar konteks kami, silahkan anda bertanya seputar prodi ti"]
+        },
+        {"tag": "Prodi",
+        "patterns": ["Apa itu prodi D4 Teknik Informatika?", "Apa itu prodi D4 TI?", "Apa yang anda ketahui tentang prodi D4 TI?", "Apa yang anda ketahui tentang prodi TI?", "prodi ti", "prodi"],
+        "responses": ["Prodi D4 Teknik Informatika merupakan program studi pada Politeknik Harapan Bersama yang mendapatkan SK Pendirian pada tanggal 13 Desember 2012 dengan Nomor SK Pendirian 420/E/0/2012. Diharapkan lulusan Program Studi D4 Teknik Informatika mampu memanfaatkan perangkat lunak dan perangkat keras di berbagai bidang kehidupan serta mampu melaksanakan pekerjaan yang kompleks berdasarkan kemampuan profesional di bidang informatika."]
+        },
+        {"tag": "Informatika",
+         "patterns": ["Apa itu Teknik Informatika?", "Apa Informatika? ", "TI", "Teknik Informatika", "Apa yang anda ketahui tentang TI?", "Apa yang anda ketahui tentang Teknik Informatika?", "Jelaskan menurut pendapat anda tentang Informatika!", "Jelaskan menurut pendapat anda tentang Teknik Informatika", "informatika"],
+         "responses": ["Informatika merupakan disiplin ilmu komputer yaitu data maupun informasi pada mesin berbasis komputasi.", "Teknik Informatika merupakan disiplin ilmu komputer yaitu data maupun informasi pada mesin berbasis komputasi."]
+        },
+        {"tag": "Kelebihan",
+          "patterns":["Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi lain?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Komputer?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Mesin?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Elektro?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Akuntansi?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Kebidanan?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Farmasi?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Akuntansi Sektor Publik?", "Apa kelebihan dari prodi D4 Teknik Informatika dibandingkan dengan prodi Perhotelam?", "kelebihan"],
+          "responses":["kelebihan dari prodi d4 informatika yaitu jurusan sepanjang masa, berpeluang kerja di perusahaan internasional, bisa membuka lapangan kerja sendiri, dibutuhkan dibanyak tempat."]
+        },
+        {"tag": "Alasan",
+          "patterns":["alasan harus memilih prodi TI?", "alasan"],
+          "responses":["Sudah banyak alumni yang sukses dan bekeja di perusahaan besar, Banyak mahasiswa yang berprestasi, Terakreditasi B, Jurusan yang selalu memenangkan perlombaan, Prospek kerja yang menjanjikan, Memahami Komputer hingga detail, Mampu menciptakan dan mengembangkan Software, Melek Teknologi."]
+        },
+        {"tag": "alamat",
+          "patterns":["Dimana letak kampus PHB Tegal?", "Dimana letak kampus Politeknik Harapan Bersama?", "Dimana letak kampus Harber?", "letak kampus phb", "alamat"],
+          "responses":["KAMPUS I : Jalan Mataram No 9 (belakang terminal) Pesurungan Lor Kota Tegal, KAMPUS II :Jalan Dewi Sartika 71 Pesurungan Kidul Kota Tegal. dan KAMPUS I : Jalan Mataram No 9 (belakang terminal) Pesurungan Lor Kota Tegal, KAMPUS II :Jalan Dewi Sartika 71 Pesurungan Kidul Kota Tegal."]
+        },
+        {"tag": "gedung",
+          "patterns":["Dimana letak prodi D4 Teknik Informatika?", "Dimana letak prodi TI?", "Dimana letak prodi D4 TI?", "gedung prodi TI dimana?", "gedung"],
+          "responses":["Letak prodi D4 teknik informatika di gedung D lantai 4 kampus PHB Tegal."]
+        },
+        {"tag": "praktikum",
+          "patterns":["Dimana biasanya mahasiswa melakukan praktik?","praktikum"],
+          "responses":["Ruang kelas", "Lab"]
+        },
+        {"tag": "diresmikan",
+          "patterns":["Kapan kampus PHB Tegal diresmikan?", "Kapan kampus Politeknik Harapan Bersama Tegal diresmikan?"],
+          "responses":["Politeknik Harapan Bersama Tegal didirikan tahun 2002 berdasarkan SK. Mendiknas RI Nomor : 128/D/O/2002 yang berkedudukan di kota Tegal."]
+        },
+        {"tag":"ulang tahun",
+          "patterns":["Kapan ulang tahun prodi D4 Teknik Informatika?", "Kapan ulang tahun prodi TI?", "ulang tahun prodi"],
+          "responses":["Pada tanggal 13 Desember 2012"]
+        },
+        {"tag": "dosen",
+          "patterns":["Siapa saja dosen yang ada di prodi D4 Teknik Informatika?", "dosen ti"],
+          "responses":["Ginanjar Wiro Sasmito, M.Kom., Dairoh, M.Sc., Dega Surono Wibowo, S.T., M.Kom., Slamet Wiyono, S.Pd., M.Eng., Dyah Apriliani, S.T., M.Kom., Muhammad Fikri Hidayattullah, S.T., M.Kom., M. Nishom, M.Kom., Taufiq Abidin, S.Pd., M.Kom., Sharfina Febbi Handayani, M.Kom., Ardi Susanto, S.Kom., M.Cs., Riszki Wijayatun Pratiwi, M.Cs., Dwi Intan Af'idah, S.T., M.Kom., Priyanto Tamami, S.Kom., Hendrawan Aprilia A, S.T., Rosid Mustofa, M.Kom., Hepatika Zidny Ilmadina, S.Pd., M.Kom."]
+        },
+        {"tag": "kesalahan sistem",
+          "patterns":["Siapa yang bisa dihubungi saat terjadi kesalahan di sistem syncnau maupun oase?", "kesalahan sistem"],
+          "responses":["Admin TI"]
+        },
+        {"tag":"kaprodi",
+          "patterns":["Siapa KaProdi D4 TI?", "kaprodi"],
+          "responses":["Slamet Wiyono, S.Pd., M.Eng."]
+        },
+        {"tag": "sekretaris",
+          "patterns":["Siapa Sekretaris prodi D4 TI?", "sekretaris prodi"],
+          "responses":["Muhammad Fikri Hidayattullah, S.T., M.Kom."]
+        },
+        {"tag": "admin",
+          "patterns":["Siapa admin TI?", "admin prodi"],
+          "responses":["Tyas Nevi A"]
+        },
+        {"tag": "kemahasiswaan",
+          "patterns":["Siapa yang mengurus kemahasiswaan di Prodi D4 TI?", "kemahasiswaan"],
+          "responses":["Sharfina Febbi Handayani, M.Kom."]
+        },
+        {"tag": "alumni",
+          "patterns":["Siapa saja alumni yang bekerja di perusahaan besar?", "alumni"],
+          "responses":["Bayu Adi Prasetyo, Azka Wildan Mukholladun, Sindy Jayanti, Attaka Badrul Haq, Adi Rangga, Fikri Ade Maulana, Ahmad Faiz, Nindi Prima Gusti, Ali Budi, Fauziyah Nur Rahmawati, Firdaus Nur Sugiarto, Syaikh Sholihun Nasr, Fredy Nur Apriyanto, Yuniar Fajar Maulana, Hasan Handoko "]
+        },
+        {"tag": "jumlah mk",
+        "patterns": ["Berapa jumah mk di D4 TI?", "jumlah mk"],
+        "responses": ["Semester1 ada 9 mata kuliah, semester3 ada 8 mata kuliah, semester5 ada 9 mata kuliah, semester7 ada 5 mata kuliah"]
+        },
+        {"tag" : "total",
+          "patterns" : ["total dosen di D4 TI?"],
+          "responses" : ["Total dosen ada 16"]
+        },
+        {"tag" : "semester1",
+         "patterns" : ["mata kuliah semester 1", "semester1"],
+         "responses" : ["Bahasa inggris1, bahasa indonesia, p. agama, kti, kalkulus, logika informatika, organisasi & arsitektur koputer, algoritma dan struktur data1, sistem operasi "]
+        },
+        {"tag" : "semester3",
+          "patterns" : ["mata kuliah semester 3", "semester3"], 
+          "responses" : ["Pemrograman komputer 2, jaringan komputer 1, pemrograman web1, sistem basis data1, matematika numerik, statistika, ERP, desain grafis"]
+        },
+        {"tag" : "Semester 5",
+          "patterns" : ["mata kuliah semester 5", "semester5"],
+          "responses" : ["mobile programing, komputasi dan cloud computing, framework programing, data warehouse, pemrograman sistem cerdas, pengolahan citra digital, machine learning, leadership, pengujian perangkat lunak"]
+        },
+        {"tag" : "semester7",
+          "patterns" :  ["mata kuliah semester 7", "semester7"],
+          "responses" : ["sistem informasi management, soft skill, management proyek, kerja praktek industri, kuliah kerja lapangan"]
+        },
+        {"tag" : "WA admin",
+          "patterns" : ["WA admin"],
+          "responses" :["089625200020"]
+        },
+        {"tag" : "kejuaraan",
+          "patterns" :["kejuaraan ti", "kejuaraan"],
+          "responses" :["juara 2 LKTI Tingkat Nasional Informatic Competition Universitas Ahmad Dahlan(ICOM UAD)2021, juara 2 UBP Techno Day 5.0 Kategori App, "]
+        },
+        {"tag" : "biaya",
+          "patterns" : ["biaya spp", "spp", "biaya"],
+          "responses" : ["650.000/semester"]
+        },
+        {"tag" : "uts",
+          "patterns" :["biaya uts", "uts"],
+          "responses" :["240.000"]
+        },
+        {"tag" : "registrasi krs",
+          "patterns" :["biaya registrasi", "registrasi uts"],
+          "responses" :["300.000"]
+        },
+        {"tag" : "jadwal hari senin",
+          "patterns" :["jadwal hari senin", "jadwal hari senin apa"],
+          "responses" :["kosong "]
+        },
+        {"tag" : "lab",
+          "patterns" :["jumlah lab ti", "lab"],
+          "responses" :["4"]
+        },
+        {"tag" : "fasilitas",
+          "patterns" :["fasilitas"],
+          "responses" :["Ruang RnD, WiFi, lab hardware"]
+        },
+        {"tag" : "pendaftaran",
+          "patterns" : ["biaya pendaftaran","pendaftaran"],
+          "responses" : ["14.650.000"]
+        },
+        {"tag" : "wisuda",
+        "patterns" : ["wisuda", "biaya wisuda"],
+        "responses" : ["1.940.000"]
+        }, 
+        {"tag" : "gelombang 1",
+        "patterns" : ["gelombang 1","tanggal gelombang 1", "pendaftaran 1"],
+        "responses" : ["oktober 2021-april 2022"]
+        },
+        {"tag" : "gelombang 2",
+          "patterns" : ["gelombang 2","tanggal gelombang 2", "pendaftaran 2"],
+          "responses" : ["mei 2022 - juni 2022"]
+        },
+        {"tag" : "gelombang 3",
+          "patterns" : ["gelombang 3","tanggal gelombang 3", "pendaftaran 3"],
+          "responses" : ["juli 2022 - september 2022"]
+        },
+        {"tag" : "direktur",
+        "patterns" : ["direktur","direktur poltek", "direktur politeknik harapan bersama"],
+        "responses" : ["Agung Hendarto, S.E., M.A"]
+        },
+        {"tag" : "wadir4", 
+        "patterns" : ["wadir IV bidang kerjasama dan pengembangan usaha", "wadir 4"],
+        "responses" : ["Ginanjar Wiro Sasmito, M.Kom"]
+        },
+        {"tag" : "event",
+        "patterns" : ["event","acara"],
+        "responses" : ["infovest, inforsary"]
+        },
+        {"tag" : "akreditasi",
+        "patterns" : ["akreditasi","penilaian prodi","penilaian akreditasi prodi"],
+        "responses" : ["B"]
+        },
+        {"tag" : "jarak",
+        "patterns" : ["jarak dari pusat kota","jarak","pusat kota"],
+        "responses" : ["4,4 km"]
+        }, 
+        {"tag" : "instagram",
+        "patterns" : ["instagram","ig","media sosial instagram"],
+        "responses" : ["teknik.informatika.phb"]
+        },
+        {"tag" : "website",
+          "patterns" :["website","web","www"],
+          "responses" :["informatika.poltektegal.ac.id"]
+        },
+        {"tag" : "FB",
+          "patterns" :["facebok","FB","media sosial facebook"],
+          "responses" :["teknik informatika-PHB"]
+        },
+        {"tag" : "maps",
+          "patterns" : ["maps","alamat maps","link maps"],
+          "responses" : ["Politeknik Harapan Bersama (0283) 352000 https://maps.app.goo.gl/Dyw4DMhT3KBMWyxz9"]
+        }
+    ]
+  }
+  
